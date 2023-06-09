@@ -1,0 +1,370 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 0 30px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a li::before{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #D900FC;
+    display: block;
+    transition: 0.5s;
+}
+nav a li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #D900FC;
+    display: block;
+    transition: 0.5s;
+}
+nav a li:hover::before{
+    width: 100%;
+}
+nav a li:hover::after{
+    width: 100%;
+}
+nav a li:hover{
+    color: #D900FC;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 17px;
+    padding: 10px 40px;
+}
+nav ul li{
+    list-style-type: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img{
+    height: 10vh;
+}.mobile-nav{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 63px;
+
+}
+.mobile-nav ul li{
+    list-style: none;
+    font-size: larger;
+    color: #D900FC;
+}
+.mobile-nav ul a{
+    text-decoration: none;
+
+} 
+.toggle button{
+    display: none;
+    padding: 5px 20px;
+    background: white;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 0;
+}
+.mamtos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.list li{
+    list-style: none;
+}
+.list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.list ul a{
+    text-decoration: none;
+    color: white;
+}
+.list ul a:hover{
+    text-decoration: none;
+    color:#D900FC;
+    cursor: pointer;
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 0 50px;
+    justify-content: space-evenly;
+}
+.icon{
+    display: flex;
+    gap: 30px;
+}
+.frontpage{
+    background: url(../images/Rectangle\ 45.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.test{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+.test h1{
+    font-size: 3vw;
+}
+.test p{
+    font-size: larger;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    padding: 70px 150px;
+    gap: 50px;
+}
+.intro{
+    display: flex;
+    justify-content: space-between;
+}
+.intro-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.head h3{
+    color: #D900FC;
+    font-size: 3vw;
+}
+.head{
+    font-size: large;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.para p{
+    font-size: larger;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.intro-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.button button{
+    padding: 10px 15px;
+    color: white;
+    background-color: #D900FC;
+    border: none;
+    border-radius: 20px;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 5px 10px;
+}
+.pics{
+    display: flex;
+    justify-content: space-between;
+}
+.icons h3{
+    color: #D900FC;
+    font-size: 3vw;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.monies{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.down-2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.test-1{
+    background-color: #F9F9F9;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.testimony-1{
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    /* padding: 0 30px; */
+}
+.mony img{
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.testimony{
+    /* padding: 100px 150px; */
+    width: 100%;
+    /* padding: 50px 80px; */
+}
+.you{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.clients{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.clients h2{
+    color: #D900FC;
+    font-size: 3vw;
+}
+.grade{
+    background-image: linear-gradient(132.44deg, #D900FC 26.12%, rgba(217, 0, 252, 0.537413) 66.45%, rgba(217, 0, 252, 0.263011) 107.2%, rgba(217, 0, 252, 0) 107.21%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 50px 0;
+    gap: 30px;
+    text-align: center;
+    /* width: 100%; */
+}
+.grade button{
+    padding: 10px 30px;
+    color: #D900FC;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.grade-p{
+    font-size: larger;
+}
+
+@media screen and (max-width:950px) {
+    nav ul{
+        display: none;
+    }
+    .mobile-nav{
+        display: flex;
+        flex-direction: column;
+        height: 0;
+        gap: 30px;
+        width: 100%;
+        transition: all 1s ease;
+        align-items: center;
+    }
+    .mobile-nav ul a{
+        color: #D900FC;
+        text-decoration: none;
+    }
+    .display{
+        display: flex;
+        height: 100vh;
+        background-color: gray;
+        position: absolute;
+        top:65px;
+        /* border-radius: 20px; */
+        /* left: 40px; */
+        padding: 20px 0;
+        width: 100%;
+    }
+    .mobile-nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        overflow: hidden;
+    }
+    .toggle button{
+        display: block;
+    }
+    .testimony-1{
+        flex-direction: column;
+    }
+    .icons{
+        flex-direction: column;
+    }
+    .pics{
+        flex-direction: column;
+    }
+    .button{
+        flex-direction: column;
+    }
+    .intro{
+        flex-direction: column-reverse;
+    }
+    .center{
+        padding: 30px 20px;
+    }
+    .mamtos{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .social{
+        flex-direction: column;
+    }
+    
+}

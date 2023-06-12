@@ -126,6 +126,10 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+.diss{
+    display: flex;
+    justify-content: space-between;
+}
 .back{
     background: url(../Images/Rectangle\ 88\ \(2\).png);
     background-repeat: no-repeat;
@@ -195,6 +199,10 @@ footer{
 .list li{
     list-style: none;
 }
+.listt{
+    display: flex;
+    gap: 50px;
+}
 .list ul{
     display: flex;
     flex-direction: column;
@@ -216,7 +224,7 @@ footer{
     padding: 0 50px;
     justify-content: space-evenly;
 }
-.icon{
+.icons{
     display: flex;
     gap: 30px;
 }
@@ -277,6 +285,49 @@ footer{
     }
     .toggle button{
         display: block;
+    }
+    .center{
+        
+        padding: 20px 20px;
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    .mamtos{
+        flex-direction: column;
+        padding: 10px 30px;
+        gap: 20px;
+    }
+    .social{
+        flex-direction: column;
+    }
+    .plus-1{
+        width: 100%;
+    }
+    body{
+        width: 100%;
+    }
+    .test{
+        flex-direction: column;
+    }
+    .dis{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .diss{
+        flex-direction: column-reverse;
+    }
+    .listt{
+        display: flex;
+        gap: 60px;
+    }
+    .main img{
+        width: 300px;
+        /* height: 300px; */
+    }
+    .back img{
+        width: 250px;
     }
     
 }

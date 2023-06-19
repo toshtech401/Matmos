@@ -401,4 +401,7 @@ footer{
     .img img{
         width: 100%;
     }
+    .logo img{
+        height: 70px;
+    }
 }

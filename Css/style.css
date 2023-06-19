@@ -474,4 +474,7 @@ footer{
     .about-items h2{
         font-size: 30px;
     }
+    .logo img{
+        height: 70px;
+    }
 }   

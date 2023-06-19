@@ -352,6 +352,9 @@ footer{
     .triple img{
         width: 100%;
     }
+    .logo img{
+        height: 70px;
+    }
 
     
 }

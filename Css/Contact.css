@@ -256,4 +256,7 @@ footer{
     textarea{
         width: 80%;
     }
+    .logo img{
+        height: 70px;
+    }
 } 

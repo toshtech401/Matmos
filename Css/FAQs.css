@@ -240,4 +240,7 @@ footer{
     body{
         width: 100%;
     }
+    .logo img{
+        height: 70px;
+    }
 }

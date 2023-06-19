@@ -367,5 +367,8 @@ footer{
     .testimony{
         padding: 30px 20px;
     }
+    .logo img{
+        height: 70px;
+    }
 
 }

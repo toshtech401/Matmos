@@ -366,5 +366,8 @@ footer{
     .social{
         flex-direction: column;
     }
+    .logo img{
+        height: 70px;
+    }
     
 }

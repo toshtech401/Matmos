@@ -369,5 +369,8 @@ footer{
     .logo img{
         height: 55px;
     }
+    .intro img{
+        height: 40vh;
+    }
     
 }

@@ -253,7 +253,7 @@ footer{
 }
 .center-3 h2{
     color: #D900FC;
-    font-size: 3vw;
+    font-size: 25px;
 }
 .reserve{
     display: flex;
@@ -376,7 +376,7 @@ footer{
         display: block;
     }
     .center{
-        padding: 100px 30px;
+        padding: 100px 10px;
         overflow: hidden;
     }
     .center-1{
@@ -450,7 +450,7 @@ footer{
     }
     section{
         width: 100%;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
     .you{
         width: 100%;
@@ -463,5 +463,15 @@ footer{
         position: relative;
         bottom:  50px;
         left: 20px;
+    }
+    .center-2{
+        padding: 20px 15px;
+        gap: 30px;
+    }
+    .center-2 h1{
+        font-size: 30px;
+    }
+    .about-items h2{
+        font-size: 30px;
     }
 }   

@@ -372,5 +372,13 @@ footer{
     .intro img{
         height: 40vh;
     }
+    .button img{
+        height: 23vh;
+    }
+    .pics{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
     
 }

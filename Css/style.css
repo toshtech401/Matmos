@@ -330,7 +330,7 @@ footer{
 
 .clients h2{
     color: #D900FC;
-    font-size: 3vw;
+    font-size: 30px;
 }
 
 
@@ -397,14 +397,16 @@ footer{
     }
     .down-1{
         flex-direction: column-reverse;
+        padding: 20px 15px;
     }
     .testimony-1{
         flex-direction: column;
         width: 100%;
     }
     .testimony{
-        padding: 30px 20px;
+        padding: 10px;
         width: 100%;
+
     }
     footer{
         width: 100%;
@@ -450,4 +452,16 @@ footer{
         width: 100%;
         overflow: hidden;
     }
-}
+    .you{
+        width: 100%;
+        padding: 10px;
+    }
+    .test{
+        padding: 50px 13px;
+    }
+    .mony img{
+        position: relative;
+        bottom:  50px;
+        left: 20px;
+    }
+}   

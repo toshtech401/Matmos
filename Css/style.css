@@ -376,8 +376,8 @@ footer{
         display: block;
     }
     .center{
-        padding: 100px 10px;
-        overflow: hidden;
+        padding: 100px 5px;
+        /* overflow: hidden; */
     }
     .center-1{
         flex-direction: column;

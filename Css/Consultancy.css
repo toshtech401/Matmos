@@ -362,6 +362,7 @@ footer{
     .mamtos{
         flex-direction: column;
         padding: 20px;
+        gap: 20px;
     }
     .social{
         flex-direction: column;

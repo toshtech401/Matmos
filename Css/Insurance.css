@@ -405,3 +405,173 @@ footer{
         height: 55px;
     }
 }
+
+
+@media screen and (max-width:950px) {
+    .body{
+        width: 100%;
+    }
+    nav ul{
+        display: none;
+    }
+    .mobile-nav{
+        display: flex;
+        flex-direction: column;
+        height: 0;
+        gap: 30px;
+        width: 100%;
+        transition: all 1s ease;
+        align-items: center;
+    }
+    .mobile-nav ul a{
+        color: #D900FC;
+        text-decoration: none;
+    }
+    .display{
+        display: flex;
+        height: 70vh;
+        background-color: gray;
+        position: absolute;
+        top:65px;
+        /* border-radius: 20px; */
+        /* left: 40px; */
+        padding: 20px 0;
+        width: 100%;
+    }
+    .mobile-nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        overflow: hidden;
+    }
+    .toggle button{
+        display: block;
+    }
+    .center{
+        padding: 100px 15px;
+        /* overflow: hidden; */
+    }
+    .center-1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .service{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .reserve{
+        flex-direction: column;
+        width: 100%;
+    }
+    .reserve-0{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .down-1{
+        flex-direction: column-reverse;
+        padding: 20px 15px;
+    }
+    .testimony-1{
+        flex-direction: column;
+        width: 100%;
+    }
+    .testimony{
+        padding: 10px;
+        width: 100%;
+
+    }
+    footer{
+        width: 100%;
+    }
+    .mamtos{
+        flex-direction: column;
+        padding: 10px 30px;
+        gap: 20px;
+    }
+    .social{
+        flex-direction: column;
+    }
+    .center-1 img{
+        width: 100%;
+    }
+    .btn input{
+        padding: 7px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: none;
+    }
+    .btn button{
+        background-color: #D900FC;
+        color: white;
+        border: none;
+        padding: 7px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .reserve img{
+        width: 100%;
+    }
+    .down-1 img{
+        width: 100%;
+    }
+    .reserve-0 img{
+        width: 100%;
+    }
+    .center-3{
+        width: 100%;
+    }
+    section{
+        width: 100%;
+        /* overflow: hidden; */
+    }
+    .you{
+        width: 100%;
+        padding: 10px;
+    }
+    .test{
+        padding: 50px 13px;
+    }
+    .mony img{
+        position: relative;
+        bottom:  50px;
+        left: 20px;
+    }
+    .center-2{
+        padding: 20px 15px;
+        gap: 30px;
+    }
+    .center-2 h1{
+        font-size: 30px;
+    }
+    .about-items h2{
+        font-size: 30px;
+    }
+    .logo img{
+        height: 55px;
+    }
+    .text{
+        padding: 20px 10px;
+    }
+    .second-1 h2{
+        font-size: 40px;
+    }
+    .clients h2{
+        font-size: 40px;
+    }
+    .monies h3{
+        font-size: 40px;
+    }
+    .head h2{
+        font-size: 50px;
+    }
+    .test h1{
+        font-size: 35px;
+    }
+    .pics{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+}
